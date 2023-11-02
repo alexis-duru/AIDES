@@ -1,40 +1,13 @@
-section {
-    --h: calc(var(--i) * 30);
-    min-height: 100vh;
-    padding: 8rem 0 max(5vh, 2rem);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-}
-    
-.container {
-    width: 100%;
-    max-width: 80rem;
-    padding: 0 max(5vw, 1rem);
-    transform-style: perspective-3d;
-    perspective: 900px;
-    span {
-        color: white;
-    }
-}
-@media (min-width: 32em) {
-.container {
-    display: grid;
-    grid-template-columns: repeat(7, minmax(0, 1fr));
-    gap: 1rem;
-}
-}
-
 nav {
 position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-background: var(--navBgColor);
+// background: var(--navBgColor);
+background-color: black;
 color: var(--navTextColor);
-z-index: 2;
-height: 6rem;
+// z-index: 2;
+height: 4rem;
 }
 nav::after {
 content: "";
@@ -42,7 +15,7 @@ position: absolute;
 top: 1.7rem;
 left: 0;
 width: 100%;
-height: 0.25rem;
+height: 0.10rem;
 background: currentColor;
 pointer-events: none;
 }
@@ -50,7 +23,7 @@ pointer-events: none;
 .marker {
 position: fixed;
 top: 1.75rem;
-left: 4rem;
+left: 20rem;
 width: 1rem;
 height: 1rem;
 transform: translate3d(-50%, -50%, 0);
@@ -60,12 +33,13 @@ z-index: 2000;
 }
 .marker::before {
 content: "";
-position: absolute;
-top: calc(50% - 0.2rem);
-right: 100%;
-width: 4rem;
-height: 0.4rem;
-background-color: var(--activeColor);
+content: "";
+    position: absolute;
+    top: calc(50%);
+    right: 100%;
+    width: 20rem;
+    height: 0.05rem;
+    background-color: white;
 }
 
 .nav__track {
@@ -73,6 +47,7 @@ position: relative;
 min-width: max(200rem, 200%);
 padding: 1.5rem max(100rem, 100%) 0 0;
 height: 6rem;
+margin-left: 16rem;
 }
 
 .nav__list {
@@ -81,6 +56,13 @@ display: flex;
 justify-content: space-between;
 margin: 0;
 padding: 0;
+   li {
+       &:nth-child(4) {
+       a {
+        display: none;
+       }
+       }
+   }
 }
 
 .nav__link {
@@ -93,6 +75,7 @@ color: inherit;
 text-decoration: none;
 z-index: 1;
 transition: color 150ms;
+    // Selectionner le numéro 2
 }
 .nav__link:hover, .nav__link:focus {
 color: var(--activeColor);
@@ -120,58 +103,4 @@ color: var(--activeColor);
 }
 .nav__link.is-active::after {
 display: none;
-}
-
-.section__heading {
-font-size: clamp(2rem, 12vmin, 7rem);
-line-height: 1;
-letter-spacing: -0.06em;
-margin: 0 0 1rem;
-grid-row: 1;
-grid-column: 1/span 7;
-align-self: end;
-position: relative;
-z-index: 1;
-}
-.section__heading span {
-display: block;
-}
-.section__heading span:first-child {
-font-size: clamp(1rem, 10vmin, 5rem);
-}
-.section__heading span:nth-child(2) {
-word-break: break-word;
-}
-
-.section__image {
-grid-row: 1;
-grid-column: 5/span 3;
-position: relative;
-box-shadow: 0.45rem 0.45rem 8rem rgba(0, 0, 0, 0.3);
-align-self: center;
-}
-.section__image::after {
-content: "";
-position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-background-color: hsl(var(--h, 0), 50%, 50%);
-mix-blend-mode: screen;
-}
-.section__image img {
-filter: brightness(0.5) grayscale(100%);
-}
-
-.form {
-    height: 200vh;
-    width: 100vw;
-    background-color: red;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: 999;
-    background-color: transparent;
 }

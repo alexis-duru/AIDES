@@ -5,12 +5,7 @@ const nextConfig = {
   compress: true,
   reactStrictMode: true,
   env: {
-    baseApiUrl: "http://localhost:1337/api",
-    baseUrl: "http://localhost:1337",
-    publicKeyMailJs: "O6bgMaC197XW14trw",
-    serviceMailJs: "service_uji7rjm",
-    templateIdMailJs: "",
-    templateIdMailJsContact: "",
+    emailJsKey: "n9BwADLkQs_0Aw1Ly",
   },
   images: {
     domains: [

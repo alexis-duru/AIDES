@@ -1,0 +1,357 @@
+[
+  {
+    "Nom": "AIDES à Alès",
+    "Ville": "Alès",
+    "Code Postal": 30100
+  },
+  {
+    "Nom": "AIDES à Angoulême",
+    "Ville": "Angoulême",
+    "Code Postal": 16000
+  },
+  {
+    "Nom": "AIDES à Argenteuil",
+    "Ville": "Argenteuil",
+    "Code Postal": 95100
+  },
+  {
+    "Nom": "AIDES à Athis-Mons",
+    "Ville": "Athis-Mons",
+    "Code Postal": 91200
+  },
+  {
+    "Nom": "AIDES à Avignon",
+    "Ville": "Avignon",
+    "Code Postal": 84000
+  },
+  {
+    "Nom": "AIDES à Bayonne",
+    "Ville": "Bayonne",
+    "Code Postal": 64100
+  },
+  {
+    "Nom": "AIDES à Belfort",
+    "Ville": "Belfort",
+    "Code Postal": 90000
+  },
+  {
+    "Nom": "AIDES à Bobigny",
+    "Ville": "Bobigny",
+    "Code Postal": 93000
+  },
+  {
+    "Nom": "AIDES à Bordeaux",
+    "Ville": "Bordeaux",
+    "Code Postal": 33000
+  },
+  {
+    "Nom": "AIDES à Bourg-en-Bresse",
+    "Ville": "Bourg-en-Bresse",
+    "Code Postal": "01000"
+  },
+  {
+    "Nom": "AIDES à Brest",
+    "Ville": "Brest",
+    "Code Postal": 29200
+  },
+  {
+    "Nom": "AIDES à Chambéry",
+    "Ville": "Chambéry",
+    "Code Postal": 73000
+  },
+  {
+    "Nom": "AIDES à Clermont-Ferrand",
+    "Ville": "Clermont-Ferrand",
+    "Code Postal": 63000
+  },
+  {
+    "Nom": "AIDES à Epinal",
+    "Ville": "Epinal",
+    "Code Postal": 88000
+  },
+  {
+    "Nom": "AIDES à Grenoble",
+    "Ville": "Grenoble",
+    "Code Postal": 38000
+  },
+  {
+    "Nom": "AIDES à Laval",
+    "Ville": "Laval",
+    "Code Postal": 53000
+  },
+  {
+    "Nom": "AIDES à Lille",
+    "Ville": "Lille",
+    "Code Postal": 59000
+  },
+  {
+    "Nom": "AIDES à Limoges",
+    "Ville": "Limoges",
+    "Code Postal": 87000
+  },
+  {
+    "Nom": "AIDES à Metz",
+    "Ville": "Metz",
+    "Code Postal": 57000
+  },
+  {
+    "Nom": "AIDES à Montpellier",
+    "Ville": "Montpellier",
+    "Code Postal": 34000
+  },
+  {
+    "Nom": "AIDES à Montreuil",
+    "Ville": "Montreuil",
+    "Code Postal": 93100
+  },
+  {
+    "Nom": "AIDES à Mulhouse",
+    "Ville": "Mulhouse",
+    "Code Postal": 68100
+  },
+  {
+    "Nom": "AIDES à Nancy",
+    "Ville": "Nancy",
+    "Code Postal": 54000
+  },
+  {
+    "Nom": "AIDES à Nanterre",
+    "Ville": "Nanterre",
+    "Code Postal": 92000
+  },
+  {
+    "Nom": "AIDES à Nantes",
+    "Ville": "Nantes",
+    "Code Postal": 44000
+  },
+  {
+    "Nom": "AIDES à Nevers",
+    "Ville": "Nevers",
+    "Code Postal": 58000
+  },
+  {
+    "Nom": "AIDES à Nîmes",
+    "Ville": "Nîmes",
+    "Code Postal": 30000
+  },
+  {
+    "Nom": "AIDES à Paris 2e",
+    "Ville": "Paris 2e",
+    "Code Postal": 75002
+  },
+  {
+    "Nom": "AIDES à Paris 8e",
+    "Ville": "Paris 8e",
+    "Code Postal": 75008
+  },
+  {
+    "Nom": "AIDES à Paris 12e",
+    "Ville": "Paris 12e",
+    "Code Postal": 75012
+  },
+  {
+    "Nom": "AIDES à Pau",
+    "Ville": "Pau",
+    "Code Postal": 64000
+  },
+  {
+    "Nom": "AIDES à Périgueux",
+    "Ville": "Périgueux",
+    "Code Postal": 24000
+  },
+  {
+    "Nom": "AIDES à Rennes",
+    "Ville": "Rennes",
+    "Code Postal": 35000
+  },
+  {
+    "Nom": "AIDES à La Rochelle",
+    "Ville": "La Rochelle",
+    "Code Postal": 17000
+  },
+  {
+    "Nom": "AIDES à la Roche-sur-Yon",
+    "Ville": "Roche-sur-Yon",
+    "Code Postal": 85000
+  },
+  {
+    "Nom": "AIDES à Rouen",
+    "Ville": "Rouen",
+    "Code Postal": 76000
+  },
+  {
+    "Nom": "AIDES à Tours",
+    "Ville": "Tours",
+    "Code Postal": 37000
+  },
+  {
+    "Nom": "AIDES à Valenciennes",
+    "Ville": "Valenciennes",
+    "Code Postal": 59300
+  },
+  {
+    "Nom": "AIDES à Angers",
+    "Ville": "Angers",
+    "Code Postal": 49000
+  },
+  {
+    "Nom": "AIDES Paris 19",
+    "Ville": "Paris 19",
+    "Code Postal": 75019
+  },
+  {
+    "Nom": "AIDES à Annecy",
+    "Ville": "Annecy",
+    "Code Postal": 74000
+  },
+  {
+    "Nom": "AIDES à Ferney-Voltaire",
+    "Ville": "Ferney-Voltaire",
+    "Code Postal": "01210"
+  },
+  {
+    "Nom": "AIDES à St Denis",
+    "Ville": "St Denis",
+    "Code Postal": 93200
+  },
+  {
+    "Nom": "AIDES Le Havre",
+    "Ville": "Le Havre",
+    "Code Postal": 76600
+  },
+  {
+    "Nom": "CAARUD Finistère",
+    "Ville": "Brest",
+    "Code Postal": 29200
+  },
+  {
+    "Nom": "AIDES à Lorient",
+    "Ville": "Lorient",
+    "Code Postal": 56100
+  },
+  {
+    "Nom": "Le SPOT Longchamp",
+    "Ville": "Longchamp",
+    "Code Postal": 75016
+  },
+  {
+    "Nom": "AIDES à Chartres",
+    "Ville": "Chartres",
+    "Code Postal": 28000
+  },
+  {
+    "Nom": "AIDES à Toulouse",
+    "Ville": "Toulouse",
+    "Code Postal": 31000
+  },
+  {
+    "Nom": "AIDES à Noisiel",
+    "Ville": "Noisiel",
+    "Code Postal": 77186
+  },
+  {
+    "Nom": "AIDES à Lyon",
+    "Ville": "Lyon",
+    "Code Postal": 69000
+  },
+  {
+    "Nom": "AIDES à Toulon",
+    "Ville": "Toulon",
+    "Code Postal": 83000
+  },
+  {
+    "Nom": "AIDES Dijon",
+    "Ville": "Dijon",
+    "Code Postal": 21000
+  },
+  {
+    "Nom": "AIDES à Niort",
+    "Ville": "Niort",
+    "Code Postal": 79000
+  },
+  {
+    "Nom": "AIDES à Amiens",
+    "Ville": "Amiens",
+    "Code Postal": 80000
+  },
+  {
+    "Nom": "AIDES à Perpignan",
+    "Ville": "Perpignan",
+    "Code Postal": 66000
+  },
+  {
+    "Nom": "AIDES à Béziers",
+    "Ville": "Béziers",
+    "Code Postal": 34500
+  },
+  {
+    "Nom": "AIDES à Nice",
+    "Ville": "Nice",
+    "Code Postal": "06000"
+  },
+  {
+    "Nom": "Le SPOT Marshall",
+    "Ville": "Nice",
+    "Code Postal": "06000"
+  },
+  {
+    "Nom": "AIDES Melun",
+    "Ville": "Melun",
+    "Code Postal": 77000
+  },
+  {
+    "Nom": "AIDES Orléans",
+    "Ville": "Orléans",
+    "Code Postal": 45000
+  },
+  {
+    "Nom": "AIDES à Annemasse",
+    "Ville": "Annemasse",
+    "Code Postal": 74100
+  },
+  {
+    "Nom": "AIDES à Poitiers",
+    "Ville": "Poitiers",
+    "Code Postal": 86000
+  },
+  {
+    "Nom": "AIDES à Choisy-le-Roi",
+    "Ville": "Choisy-le-Roi",
+    "Code Postal": 94600
+  },
+  {
+    "Nom": "AIDES au Mans",
+    "Ville": "Le Mans",
+    "Code Postal": 72000
+  },
+  {
+    "Nom": "AIDES à Marseille Nord",
+    "Ville": "Marseille",
+    "Code Postal": 13001
+  },
+  {
+    "Nom": "AIDES à Besançon",
+    "Ville": "Besançon",
+    "Code Postal": 25000
+  },
+  {
+    "Nom": "AIDES à Reims",
+    "Ville": "Reims",
+    "Code Postal": 51100
+  },
+  {
+    "Nom": "AIDES à Agen",
+    "Ville": "Agen",
+    "Code Postal": 47000
+  },
+  {
+    "Nom": "AIDES à Périgueux",
+    "Ville": "Périgueux",
+    "Code Postal": 24000
+  },
+  {
+    "Nom": "AIDES à Strasbourg",
+    "Ville": "Strasbourg",
+    "Code Postal": 67000
+  }
+]

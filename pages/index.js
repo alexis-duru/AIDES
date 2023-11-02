@@ -5,6 +5,7 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Head from "next/head";
 import Draggable from "gsap/dist/Draggable";
 import { gsapPlugins } from "gsap/dist/gsap";
+import Contact from "@/components/contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,37 @@ export default function Home() {
     const prefersReducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)"
     );
+
+    // Faire disparaitre .nav sur l'axe Y quand on scroll et que l'on arrive dans section_3
+    gsap.to("nav", {
+      scrollTrigger: {
+        trigger: "#section_3",
+        start: "top top",
+        end: "bottom top",
+        scrub: true,
+        toggleActions: "play none none reverse",
+      },
+      opacity: 0,
+    });
+
+    // const colorsSection = document.querySelectorAll("section");
+
+    // const colorTimeLine = gsap.timeline({ repeat: -1 });
+
+    // sections.forEach((section, index) => {
+    //   const colors = ["#ff0000", "#000000", "#808080", "#ffffff"];
+
+    //   colorTimeLine.to(colorsSection, {
+    //     backgroundColor: colors[index],
+    //     scrollTrigger: {
+    //       trigger: section,
+    //       start: "top top",
+    //       end: "bottom top",
+    //       scrub: true,
+    //       toggleActions: "play none none reverse",
+    //     },
+    //   });
+    // });
 
     const lastItemWidth = () => navLinks[navLinks.length - 1].offsetWidth;
 
@@ -157,16 +189,21 @@ export default function Home() {
           <ul className="nav__list">
             <li>
               <a href="#section_1" className="nav__link" data-link>
-                <span>1993</span>
+                <span>Hier</span>
               </a>
             </li>
             <li>
               <a href="#section_2" className="nav__link" data-link>
-                <span>1995</span>
+                <span>Aujourd'hui</span>
               </a>
             </li>
             <li>
               <a href="#section_3" className="nav__link" data-link>
+                <span>Demain</span>
+              </a>
+            </li>
+            <li>
+              <a href="#section_4" className="nav__link" data-link>
                 <span>1997</span>
               </a>
             </li>
@@ -178,8 +215,8 @@ export default function Home() {
         <section id="section_1" style={{ "--i": 0 }}>
           <div className="container">
             <h2 className="section__heading">
-              <span>1993</span>
-              <span>Pablo Honey</span>
+              <span>Hier,</span>
+              <span>on ne savait pas quoi faire</span>
             </h2>
             <div className="section__image">
               <img
@@ -193,8 +230,8 @@ export default function Home() {
         <section id="section_2" style={{ "--i": 1 }}>
           <div className="container">
             <h2 className="section__heading">
-              <span>1995</span>
-              <span>The Bends</span>
+              <span>Aujourd’hui, </span>
+              <span>on se réunit</span>
             </h2>
             <div className="section__image">
               <img
@@ -208,8 +245,8 @@ export default function Home() {
         <section id="section_3" style={{ "--i": 2 }}>
           <div className="container">
             <h2 className="section__heading">
-              <span>1997</span>
-              <span>OK Computer</span>
+              <span>Demain, </span>
+              <span>on y aura mis fin</span>
             </h2>
             <div className="section__image">
               <img
@@ -220,7 +257,27 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <div className="form"></div>
+        <section id="section_4" style={{ "--i": 3 }}>
+          <div className="container__form">
+            <div className="wrapper__content">
+              <h2>Devenez acteurs de demain</h2>
+              <p>
+                Devenez benevole blablabla c’est trop cool blabalabal cras netus
+                egestas aenean iaculis auctor donec. Bibendum erat massa augue
+                dui enim turpis. At proin felis id luctus morbi euismod mauris
+                eget. Duis dolor velit curabitur amet imperdiet.{" "}
+              </p>
+              {/* <img
+                src="https://assets.codepen.io/85648/radiohead_ok-computer.webp"
+                width="1200"
+                height="1200"
+              /> */}
+            </div>
+            <div className="wrapper__form">
+              <Contact />
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
