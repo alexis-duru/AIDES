@@ -1,0 +1,28 @@
+footer {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    a {
+        width: 150px;
+        background-color: $red;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        height: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s ease-in-out;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    .container__form {
+        display: flex;
+        align-items: center;
+        .wrapper__content {
+            text-align: center;
+        }
+    }
+}

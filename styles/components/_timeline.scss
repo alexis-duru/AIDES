@@ -65,9 +65,14 @@ margin: 0;
 padding: 0;
    li {
        &:nth-child(4) {
-       a {
-        display: none;
+        a {
+            display: none;
+        }
        }
+       &:nth-child(5) {
+        a {
+            display: none;
+        }
        }
    }
 }

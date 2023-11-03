@@ -207,6 +207,11 @@ export default function Home() {
                 <span>1997</span>
               </a>
             </li>
+            <li>
+              <a href="#section_5" className="nav__link" data-link>
+                <span>1997</span>
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -276,6 +281,21 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <footer id="section_5" style={{ "--i": 4 }}>
+          <div className="container__form">
+            <div className="wrapper__content">
+              <h3>
+                Pour en savoir plus sur <span>AIDES</span>
+              </h3>
+              <a href="https://www.aides.org/" target="_blank">
+                Découvrir
+              </a>
+            </div>
+            <div className="wrapper__content">
+              <img src="../assets/img/aides.png" width="1200" height="1200" />
+            </div>
+          </div>
+        </footer>
       </main>
     </>
   );
