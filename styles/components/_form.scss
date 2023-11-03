@@ -19,6 +19,14 @@
         flex-direction: column;
         padding: 5rem;
         font-family: $panorama;
+        height: 100%;
+        h3 {
+            margin-top: 0;
+            text-transform: uppercase;
+            span {
+                color: $red;
+            }
+        }
         img {
             display: block;
             width: auto;

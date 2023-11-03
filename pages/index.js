@@ -266,7 +266,9 @@ export default function Home() {
         <section id="section_4" style={{ "--i": 3 }}>
           <div className="container__form">
             <div className="wrapper__content">
-              <h3>Devenez acteurs de demain</h3>
+              <h3>
+                Devenez acteurs de <span>demain.</span>
+              </h3>
               <img src="../assets/img/footer.jpg" width="1200" height="1200" />
             </div>
             <div className="wrapper__form">

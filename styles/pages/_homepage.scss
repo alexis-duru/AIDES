@@ -1,3 +1,10 @@
+main {
+    @media screen and (max-width: 768px) {
+        padding-top: 3rem;
+        background: white;
+    }
+}
+
 section {
     --c: 0;
     --h: calc(var(--i) * 30);
