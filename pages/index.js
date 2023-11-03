@@ -215,8 +215,8 @@ export default function Home() {
         <section id="section_1" style={{ "--i": 0 }}>
           <div className="container">
             <h2 className="section__heading">
-              <span>Hier,</span>
-              <span>on ne savait pas quoi faire</span>
+              <span className="first">Hier,</span>
+              <span className="second">on ne savait pas quoi faire</span>
             </h2>
             <div className="section__image">
               <img
@@ -230,8 +230,8 @@ export default function Home() {
         <section id="section_2" style={{ "--i": 1 }}>
           <div className="container">
             <h2 className="section__heading">
-              <span>Aujourd’hui, </span>
-              <span>on se réunit</span>
+              <span className="first">Aujourd’hui, </span>
+              <span className="second">on se réunit</span>
             </h2>
             <div className="section__image">
               <img
@@ -245,8 +245,8 @@ export default function Home() {
         <section id="section_3" style={{ "--i": 2 }}>
           <div className="container">
             <h2 className="section__heading">
-              <span>Demain, </span>
-              <span>on y aura mis fin</span>
+              <span className="first">Demain, </span>
+              <span className="second">on y aura mis fin</span>
             </h2>
             <div className="section__image">
               <img

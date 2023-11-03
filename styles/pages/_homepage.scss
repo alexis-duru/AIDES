@@ -18,9 +18,10 @@ section {
     perspective: 900px;
     h2 {
         z-index: 999;
+        font-family: $panorama;
+        font-weight: 900;
     }
     span {
-        color: black;
         z-index: 999;
         max-width: 800px;
 
@@ -52,6 +53,14 @@ section {
     position: relative;
     z-index: 1;
     }
+    .first {
+        color: $red;
+    }
+
+    .second {
+        color: $lightBlack;
+    }
+
     .section__heading span {
     display: block;
     }
@@ -66,8 +75,8 @@ section {
     grid-row: 1;
     grid-column: 5/span 3;
     position: relative;
-    // box-shadow: 0.45rem 0.45rem 8rem rgba(0, 0, 0, 0.3);
     align-self: center;
+    // box-shadow: 0.45rem 0.45rem 8rem rgba(0, 0, 0, 0.3);
     }
     .section__image::after {
     content: "";

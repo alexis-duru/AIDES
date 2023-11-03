@@ -72,7 +72,7 @@ display: block;
 min-width: 8rem;
 padding: 1.25rem 1rem 0.5rem;
 text-align: center;
-color: inherit;
+color: $lightBlack;
 text-decoration: none;
 z-index: 1;
 transition: color 150ms;
@@ -95,8 +95,10 @@ transform: translate3d(-50%, 0, 0);
 transform-origin: center center;
 }
 .nav__link span {
-display: block;
-transition: transform 200ms;
+    display: block;
+    transition: transform 200ms;
+    font-family: $roboto;
+    font-weight: bold;
 }
 .nav__link.is-active span {
 transform: scale(1.4);

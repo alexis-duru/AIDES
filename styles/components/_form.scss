@@ -39,10 +39,15 @@
             display: flex;
             flex-direction: column;
             gap: 1rem;
+            color: $lightBlack;
             .submit {
                 height: 3rem;
                 background-color: black;
             }
         }
     }
+}
+
+input, label {
+    font-family: $roboto !important;
 }
