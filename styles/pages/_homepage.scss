@@ -6,7 +6,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: white;
 }
 
     
@@ -20,19 +20,26 @@ section {
         z-index: 999;
     }
     span {
-        color: white;
+        color: black;
         z-index: 999;
         max-width: 800px;
 
     }
 }
 @media (min-width: 32em) {
-.container {
-    display: grid;
-    grid-template-columns: repeat(7, minmax(0, 1fr));
-    gap: 1rem;
+    .container {
+        display: grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        gap: 1rem;
+    }
 }
-}
+
+// @media screen and (max-width: 900px) {
+//     .container {
+//         display: flex;
+//         flex-direction: column;
+//     }
+// }
 
 .section__heading {
     font-size: clamp(2rem, 12vmin, 7rem);
@@ -59,7 +66,7 @@ section {
     grid-row: 1;
     grid-column: 5/span 3;
     position: relative;
-    box-shadow: 0.45rem 0.45rem 8rem rgba(0, 0, 0, 0.3);
+    // box-shadow: 0.45rem 0.45rem 8rem rgba(0, 0, 0, 0.3);
     align-self: center;
     }
     .section__image::after {
@@ -71,7 +78,7 @@ section {
     right: 0;
     background-color: hsl(var(--h, 0), 50%, 50%);
     mix-blend-mode: screen;
-    z-index: 999;
+    // z-index: 999;
     }
     .section__image img {
     filter: brightness(0.5) grayscale(100%);

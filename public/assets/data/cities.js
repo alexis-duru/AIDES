@@ -414,12 +414,6 @@ export const city = [
     CodePostal: 47000,
   },
   {
-    id: 70,
-    Nom: "AIDES à Périgueux",
-    Ville: "Périgueux",
-    CodePostal: 24000,
-  },
-  {
     id: 71,
     Nom: "AIDES à Strasbourg",
     Ville: "Strasbourg",

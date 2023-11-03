@@ -23,11 +23,7 @@ const Form = () => {
   const [sending, setSending] = useState(false);
 
   const sendEmail = (e) => {
-    setSending(true);
-    const id = toast.loading("En transmission ...");
-
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_1ms6gls",

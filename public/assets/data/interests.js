@@ -1,7 +1,10 @@
 export const interest = [
-  { title: "The Shawshank Redemption", year: 1994 },
-  { title: "The Godfather", year: 1972 },
-  { title: "The Godfather: Part II", year: 1974 },
-  { title: "The Dark Knight", year: 2008 },
-  { title: "12 Angry Men", year: 1957 },
+  { id: 1, title: "Sensibilisation" },
+  { id: 2, title: "Soutien aux personnes atteintes du VIH" },
+  { id: 3, title: "Prévention" },
+  { id: 4, title: "Collecte de fonds" },
+  { id: 5, title: "Travail administratif" },
+  { id: 6, title: "Formation" },
+  { id: 7, title: "Plaidoyer" },
+  { id: 8, title: "Communication" },
 ];

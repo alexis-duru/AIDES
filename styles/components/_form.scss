@@ -4,9 +4,12 @@
 }
 
 .container__form {
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
+    @media (max-width: 1200px) {
+        flex-direction: column;
+    }
 
     .wrapper__content {
         width: 50%;
@@ -15,6 +18,10 @@
         align-items: center;
         flex-direction: column;
         padding: 5rem;
+        @media (max-width: 1200px) {
+            padding: 2.5rem 2.5rem 0rem;
+            width: 100%;
+        }
     }
     .wrapper__form {
         width: 50%;
@@ -23,6 +30,10 @@
         align-items: center;
         flex-direction: column;
         padding: 5rem;
+        @media (max-width: 1200px) {
+            padding: 2.5rem;
+            width: 100%;
+        }
         form {
             width: 100%;
             display: flex;
