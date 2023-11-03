@@ -216,7 +216,7 @@ export default function Home() {
           <div className="container">
             <h2 className="section__heading">
               <span className="first">Hier,</span>
-              <span className="second">on ne savait pas quoi faire</span>
+              <span className="second">on ne savait pas quoi faire.</span>
             </h2>
             <div className="section__image">
               <img
@@ -225,13 +225,19 @@ export default function Home() {
                 height="1200"
               />
             </div>
+            <img
+              className="alone__circle"
+              src="../assets/img/circle_4.webp"
+              width="1200"
+              height="1200"
+            />
           </div>
         </section>
         <section id="section_2" style={{ "--i": 1 }}>
           <div className="container">
             <h2 className="section__heading">
               <span className="first">Aujourd’hui, </span>
-              <span className="second">on se réunit</span>
+              <span className="second">on se réunit.</span>
             </h2>
             <div className="section__image">
               <img
@@ -246,7 +252,7 @@ export default function Home() {
           <div className="container">
             <h2 className="section__heading">
               <span className="first">Demain, </span>
-              <span className="second">on y aura mis fin</span>
+              <span className="second">on y aura mis fin.</span>
             </h2>
             <div className="section__image">
               <img
@@ -260,7 +266,7 @@ export default function Home() {
         <section id="section_4" style={{ "--i": 3 }}>
           <div className="container__form">
             <div className="wrapper__content">
-              <h2>Devenez acteurs de demain</h2>
+              <h3>Devenez acteurs de demain</h3>
               <img src="../assets/img/footer.jpg" width="1200" height="1200" />
             </div>
             <div className="wrapper__form">

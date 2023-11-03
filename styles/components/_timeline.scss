@@ -31,6 +31,9 @@ transform: translate3d(-50%, -50%, 0);
 background: var(--activeColor);
 border-radius: 100%;
 z-index: 2000;
+    @media screen and (max-width: 768px) {
+        left: 4rem;
+    }
 }
 .marker::before {
 content: "";
@@ -44,11 +47,14 @@ content: "";
 }
 
 .nav__track {
-position: relative;
-min-width: max(200rem, 200%);
-padding: 1.5rem max(100rem, 100%) 0 0;
-height: 6rem;
-margin-left: 16rem;
+    position: relative;
+    min-width: max(200rem, 200%);
+    padding: 1.5rem max(100rem, 100%) 0 0;
+    height: 6rem;
+    margin-left: 16rem;
+    @media screen and (max-width: 768px) {
+       margin-left: auto;
+    }
 }
 
 .nav__list {
