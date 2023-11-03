@@ -34,11 +34,13 @@ const Form = () => {
       .then(
         (result) => {
           console.log(result.text);
-          toast.success("Your message has been sent, thank you !");
+          toast.success("Votre message a bien été envoyé, merci !");
         },
         (error) => {
           console.log(error.text);
-          toast.error("Your message has not been sent, please retry");
+          toast.error(
+            "Votre message n'a pas pu être envoyé, merci de réessayer"
+          );
         }
       );
     e.target.reset();

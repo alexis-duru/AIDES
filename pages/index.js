@@ -220,7 +220,7 @@ export default function Home() {
             </h2>
             <div className="section__image">
               <img
-                src="https://assets.codepen.io/85648/radiohead_pablo-honey.jpg"
+                src="../assets/img/circle_1.png"
                 width="1200"
                 height="1200"
               />
@@ -235,7 +235,7 @@ export default function Home() {
             </h2>
             <div className="section__image">
               <img
-                src="https://assets.codepen.io/85648/radiohead_the-bends.webp"
+                src="../assets/img/circle_2.png"
                 width="1200"
                 height="1200"
               />
@@ -250,7 +250,7 @@ export default function Home() {
             </h2>
             <div className="section__image">
               <img
-                src="https://assets.codepen.io/85648/radiohead_ok-computer.webp"
+                src="../assets/img/circle_3.png"
                 width="1200"
                 height="1200"
               />
@@ -261,17 +261,7 @@ export default function Home() {
           <div className="container__form">
             <div className="wrapper__content">
               <h2>Devenez acteurs de demain</h2>
-              <p>
-                Devenez benevole blablabla c’est trop cool blabalabal cras netus
-                egestas aenean iaculis auctor donec. Bibendum erat massa augue
-                dui enim turpis. At proin felis id luctus morbi euismod mauris
-                eget. Duis dolor velit curabitur amet imperdiet.{" "}
-              </p>
-              {/* <img
-                src="https://assets.codepen.io/85648/radiohead_ok-computer.webp"
-                width="1200"
-                height="1200"
-              /> */}
+              <img src="../assets/img/footer.jpg" width="1200" height="1200" />
             </div>
             <div className="wrapper__form">
               <Contact />

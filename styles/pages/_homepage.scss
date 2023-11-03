@@ -72,10 +72,11 @@ section {
     }
     
     .section__image {
-    grid-row: 1;
-    grid-column: 5/span 3;
-    position: relative;
-    align-self: center;
+        grid-row: 1;
+        grid-column: 5/span 3;
+        position: relative;
+        align-self: center;
+       margin: auto;
     // box-shadow: 0.45rem 0.45rem 8rem rgba(0, 0, 0, 0.3);
     }
     .section__image::after {
@@ -85,10 +86,12 @@ section {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: hsl(var(--h, 0), 50%, 50%);
-    mix-blend-mode: screen;
+    // background-color: hsl(var(--h, 0), 50%, 50%);
+    // mix-blend-mode: screen;
     // z-index: 999;
     }
     .section__image img {
-    filter: brightness(0.5) grayscale(100%);
+    // filter: brightness(0.5) grayscale(100%);
+    max-height: 300px;
+    width: auto;
     }
